@@ -34,6 +34,15 @@ nav ul li{
 }
 .main-container{
     min-height: 75vh;
+    background-color: black;
+    color: azure;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(bg.jpg);
 }
 .footer{
     background-color: black;
@@ -42,6 +51,13 @@ nav ul li{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin: 20px;
+}
+.icons i{
+    cursor: pointer;
 }
 #progress{
     width: 80vw;
